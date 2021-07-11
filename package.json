@@ -1,10 +1,12 @@
 {
-  "name": "passwordgenerator",
+  "name": "newpass",
   "version": "1.0.0",
   "description": "password generator",
   "main": "index.js",
   "preferGlobal": true,
-  "bin": "./index.js",
+  "bin": {
+    "newpass": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +16,14 @@
     "chalk": "^4.1.1",
     "clipboardy": "^2.3.0",
     "commander": "^8.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devtamer/password-generator-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devtamer/password-generator-js/issues"
+  },
+  "homepage": "https://github.com/devtamer/password-generator-js#readme"
 }

@@ -1,6 +1,8 @@
 // creating arrow function and setting it equal to variable createPassword
 // function takes in objects and then sets defaults for them 
 // (defaults not necessary because we set them up in commands)
+const os = require('os')
+
 
 const alpha = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 const numbers = '0123456789'

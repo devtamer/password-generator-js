@@ -32,9 +32,12 @@ npm unlink
 
 | Short | Long              | Description                     |
 | ----- | ----------------- | ------------------------------- |
-| -l    | --length <number> | length of password (default: 8) |
+| -l    | --length <number> | length of password (default: 12) |
 | -s    | --save            | save password to passwords.txt  |
 | -nn   | --no-numbers      | remove numbers                  |
 | -ns   | --no-symbols      | remove symbols                  |
+| -rp   | --reset           | remove all the passwords from the txt file                  |
+| -pb    | --batch <number>            | allows for generating unlimited passwords at once         |
+
 | -h    | --help            | display help for command        |
 | -V    | --version         | Show the version                |
