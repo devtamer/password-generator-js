@@ -29,6 +29,9 @@ const { length, save, numbers, symbols, reset, batch } = program.opts()
 // Get generated password 
 const generatedPassword = createPassword(length, numbers, symbols)
 
+// get batch password
+const batchedPasswords = batchPasswords(batch)
+
 // file containing passwords
 const outputFile = ""
 
@@ -39,8 +42,8 @@ if (reset) {
 } else {
     // save to file
     if (batch) {
-        log(chalk.blue("Generated Passwords: \n"), chalk.bold((batchPasswords(batch))))
-        savePassword(batchPasswords(batch))
+        log(chalk.blue("Generated Passwords: \n"), chalk.bold((batchedPasswords)))
+        savePassword(batchedPasswords)
     } else {
         if (save) {
             savePassword(generatedPassword)
