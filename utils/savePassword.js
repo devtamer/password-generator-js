@@ -5,7 +5,7 @@ const chalk = require('chalk')
 
 
 function savePassword(password, arry) {
-    fs.open(path.join(__dirname, '../', 'passwords.txt'), 'a', 999, (e, id) => {
+    fs.open(path.join(__dirname, '../', 'passwords.txt'), 'a', (e, id) => {
         if (arry) {
             fs.write(id, arry + os.EOL, null, 'utf-8', () => {
                 fs.close(id, () => {

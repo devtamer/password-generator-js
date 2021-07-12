@@ -41,8 +41,8 @@ npm unlink
 | -s    | --save            | save password to passwords.txt  |
 | -nn   | --no-numbers      | remove numbers                  |
 | -ns   | --no-symbols      | remove symbols                  |
-| -rp   | --reset           | remove all the passwords from the txt file                  |
-| -pb    | --batch <number>            | allows for generating unlimited passwords at once (will save to text file by default)         |
+| -p   | --reset           | remove all the passwords from the txt file                  |
+| -b    | --batch <number>            | allows for generating unlimited passwords at once (will save to text file by default)         |
 
 | -h    | --help            | display help for command        |
 | -V    | --version         | Show the version                |

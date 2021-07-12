@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// Author: DevTamer https://github.com/devtamer/password-generator-js.git
 // variable to require commander (program object)
 const { program } = require('commander')
 const chalk = require('chalk')
@@ -19,8 +20,8 @@ program
     .option('-s, --save', 'save password to output file passwords.txt')
     .option('-nn, --no-numbers', 'remove numbers from passowrd')
     .option('-ns, --no-symbols', 'remove symbols from passowrd')
-    .option('-rp, --reset', 'remove all the passwords from txt file')
-    .option('-pb, --batch <number>', 'the number of passwords generated at once')
+    .option('-r, --reset', 'remove all the passwords from txt file')
+    .option('-b, --batch <number>', 'the number of passwords generated at once')
     .parse()
 
 const { length, save, numbers, symbols, reset, batch } = program.opts()
