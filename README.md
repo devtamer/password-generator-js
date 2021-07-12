@@ -3,6 +3,11 @@
 Node.js command line app to generate random passwords
 
 ## Usage
+enter directory
+
+```
+cd password-generator-js
+```
 
 Install dependencies
 
@@ -13,7 +18,7 @@ npm install
 Run file
 
 ```
-node index (options)
+node index (options) || newpass (options)
 ```
 
 To create a symlink to run "passgen" from anywhere
